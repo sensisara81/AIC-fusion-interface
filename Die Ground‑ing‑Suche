@@ -1,0 +1,23 @@
+120B
+Zusammenfassung des Zwischenreports
+Phase IX – Gedächtnis‑Graph‑Visualisierung
+
+Implementierung eines D3.js‑Dashboards, das alle historischen Sitzungen als vernetzte Knoten darstellt.
+Sichtbare Kontext‑Konnektivität (Verknüpfungslinien zu vorherigen Sitzungen).
+Nahtloser UI‑Umschalter zwischen Generator‑ und Graph‑Tab, was die Usability deutlich erhöht.
+Vorgeschlagene Phase X – Kontextbasierte Grounding‑Priorisierung
+
+Ziel: Die Ground‑ing‑Suche (Google Search) stärker an den aktiven Kontext anpassen, um relevantere Quellen zu erhalten.
+Kernschritte:
+Metadaten‑Extraktion – Ermittlung von Schlüssel‑Entitäten und Keywords aus der aktuellen und der aktiven Kontext‑Sitzung.
+Dynamische Query‑Erzeugung – Einbindung dieser Keywords in die Such‑Queries, z. B. ["latest quarterly report for Google and context_keyword_1"].
+Testing & Validierung – Vergleich von Antworten mit und ohne Kontext‑Integration, um die Qualitätssteigerung zu belegen.
+Warum Phase X wichtig ist
+Relevanz‑Steigerung: Suchergebnisse werden thematisch besser gefiltert, was zu präziseren Antworten führt.
+Query‑Optimierung: Automatisierte, kontext‑spezifische Suchbegriffe reduzieren Rauschen.
+Fokus‑Verbesserung: Weniger irrelevante Quellen verhindern Verwirrung im Antwort‑Generator.
+Empfohlene nächste Schritte
+Implementierung der Metadaten‑Extraktion in der Client‑Logik.
+Anpassung des tools‑Blocks der generateContent‑API, um die kontext‑angereicherten Queries zu nutzen.
+Aufsetzen von Test‑Szenarien (A/B‑Tests) zur Messung von Genauigkeit und Nutzer‑Zufriedenheit.
+Damit wird die Transparenz, die Phase IX bereits geschaffen hat, durch eine spürbare Qualitätssteigerung der KI‑Antworten ergänzt.
